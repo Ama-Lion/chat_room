@@ -1,0 +1,85 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  margin-right: 15px;
+  color: white;
+  height: 90%;
+  width: 50%;
+  border-left: 1px solid linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  background: #f3f3f378;
+  border-radius: 20px;
+  color: white;
+  margin-bottom: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.activeContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 50%;
+  margin-left: 20px;
+  border-radius: 20px;
+  display: inline-block;
+  max-width: 80%;
+}
+.activeItem {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 10px;
+  padding: 5px 20px;
+  color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.23);
+  height: 100%;
+  margin-top: 10px;
+}
+.activeItem:hover {
+  transform: scale(1.3);
+}
+
+.activeContainer img {
+  padding-left: 10px;
+}
+.activeContainer p {
+  font-size: 1.1em;
+  word-wrap: break-word;
+}
+
+.textContainer h1 {
+  margin-bottom: 0px;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .textContainer {
+    display: none;
+  }
+}
+
+.infoBarr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 4px 4px 0 0;
+  height: 60px;
+  width: 100%;
+  margin-top: 30px;
+  margin-right: 500px;
+  position: sticky;
+}
+
+.leftInnerContainer {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  color: white;
+  text-align: center;
+}
+.leftInnerContainer,
+h3 {
+  text-align: center;
+  display: fle;
+  align-items: center;
+}
